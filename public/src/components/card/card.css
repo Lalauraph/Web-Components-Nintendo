@@ -1,0 +1,57 @@
+.product-card {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	padding: 15px;
+	background-color: #fff;
+	width: 300px; /* Tamaño fijo para todas las cajas */
+	height: 200px; /* Altura fija para todas las cajas */
+}
+
+.product-card h1 {
+	font-size: 18px;
+	color: #000;
+	margin: 0;
+	padding-bottom: 5px;
+	flex-basis: 100%;
+	text-align: left;
+}
+
+.product-card p {
+	margin: 0;
+	padding-bottom: 5px;
+	color: #333;
+	font-size: 14px; /* Tamaño reducido */
+}
+
+.product-card button {
+	padding: 8px 16px;
+	background-color: #28a745;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 14px; /* Tamaño reducido */
+}
+
+.product-card button:hover {
+	background-color: #218838;
+}
+
+.product-card img {
+	max-width: 30%; /* Tamaño reducido */
+	max-height: 100%; /* Asegura que la imagen no exceda la altura del contenedor */
+	border-radius: 10px;
+	object-fit: cover; /* Mantiene la proporción de la imagen */
+}
+
+.product-card div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-basis: 70%; /* Ajuste del tamaño */
+	height: 100%; /* Asegura que el contenido ocupe toda la altura del contenedor */
+}

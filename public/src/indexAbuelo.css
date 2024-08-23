@@ -1,0 +1,25 @@
+/* Aplicar fondo gris claro a toda la página */
+:host {
+	display: block;
+	background-color: #f0f0f0; /* Fondo gris claro */
+	text-align: center; /* Centrado horizontal para todo el contenido */
+	padding: 20px;
+	margin: 0;
+}
+
+/* Estilos para centrar el texto "My Nintendo Store" */
+h1 {
+	font-size: 2em;
+	color: #333;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+/* Contenedores ya definidos */
+.promotions-container,
+.card-container {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	padding: 20px;
+}
